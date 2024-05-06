@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>myjava</servlet-name>
+  	<display-name>myjava</display-name>
+  	<description></description>
+  	<servlet-class>com.myjava</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<display-name>AdminLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.job.controller.admin.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserRegisterServlet</servlet-name>
+  	<display-name>UserRegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.job.controller.user.UserRegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmployerRegister</servlet-name>
+  	<display-name>EmployerRegister</display-name>
+  	<description></description>
+  	<servlet-class>com.job.controller.employer.EmployerRegister</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmployerLogin</servlet-name>
+  	<display-name>EmployerLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.job.controller.employer.EmployerLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>JobPost</servlet-name>
+  	<display-name>JobPost</display-name>
+  	<description></description>
+  	<servlet-class>com.job.controller.employer.JobPost</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateProfile</servlet-name>
+  	<display-name>UpdateProfile</display-name>
+  	<description></description>
+  	<servlet-class>com.job.controller.employer.UpdateProfile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>myjava</servlet-name>
+  	<url-pattern>/myjava</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserRegisterServlet</servlet-name>
+  	<url-pattern>/UserRegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmployerRegister</servlet-name>
+  	<url-pattern>/EmployerRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmployerLogin</servlet-name>
+  	<url-pattern>/EmployerLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>JobPost</servlet-name>
+  	<url-pattern>/JobPost</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateProfile</servlet-name>
+  	<url-pattern>/UpdateProfile</url-pattern>
+  </servlet-mapping>
+</web-app>
